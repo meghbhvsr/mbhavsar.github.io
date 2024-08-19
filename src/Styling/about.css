@@ -1,0 +1,29 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 5vw;
+    font-size: 1.5rem;
+    font-family: cursive;
+    height: calc(100vh - 20vh);
+    background-image: url('../images/background-img6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.about {
+    width: 50%;
+}
+
+.grad-img {
+    width: 55%;
+    height: auto;
+    margin-top: -35vh;
+    margin-left: 60vw;
+}
+
+.one-piece-img {
+    margin-top: -20vh;
+    width: 30%
+}

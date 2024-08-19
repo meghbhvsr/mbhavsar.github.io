@@ -1,0 +1,36 @@
+header {
+    background: transparent;
+    padding: 10px 0;
+    padding-bottom: 60px;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    margin-left: 65vw;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #333;
+}
+
+.name {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 50px;
+    margin-bottom: -30px;
+}
