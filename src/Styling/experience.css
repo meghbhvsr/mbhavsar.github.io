@@ -36,3 +36,32 @@
     margin-top: 1rem;
     margin-left: 26rem;
   }
+
+
+/* For screens between 1440px and 1920px */
+@media (min-width: 1440px) and (max-width: 1920px) {
+    .card {
+        font-size: 1.3ch;
+        width: 28vw;
+    }
+    .work-images {
+        margin-top: 1vh;
+        width: 28%;
+        margin-left: 24rem;
+    }
+}
+
+/* For screens smaller than 1440px */
+@media (max-width: 1440px) {
+    .card {
+        width: 40vw;
+        height: auto; /* Allow height to adjust based on content */
+        margin-top: 4vh;
+    }
+    .work-images {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+}

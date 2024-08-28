@@ -8,7 +8,7 @@ import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 
 const App = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Header />
     <main>
       <Routes>
