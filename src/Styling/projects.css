@@ -8,24 +8,25 @@
 }
 
 .card-container {
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    grid-gap: 0.5vw;
+    grid-gap: 0.7vw;
     justify-content: center;
     align-items: start;
     padding: 7vh 5vw;
     font-size: 1.5rem;
     font-family: cursive;
     height: 86vh;
-    margin-top: -5vh;
+    margin-top: -4vh;
 }
 .card {
     background: rgba(255, 255, 255, 0.8);
-    border-radius: 5vh;
+    border-radius: 1vh;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     height: 30vh;
     padding: 2vh;
-    padding-bottom: 2vh;
+    padding-bottom: 1vh;
     width: 25vw;
 }
 
@@ -43,4 +44,21 @@
 .description-item {
     margin: 10px 0;
     white-space: pre-line; /* Ensure line breaks are preserved */
+}
+
+.project-images {
+    width: 45%; /* Adjust as needed */
+    height: 50%;
+    margin-top: -2.5rem;
+    margin-left: 16rem;
+  }
+
+.middle-text {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: -0.7vh;
+    margin-right: 2vw;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: -10vh;
 }

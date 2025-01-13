@@ -1,0 +1,26 @@
+.background {
+    height: calc(100vh);
+    background-image: url('../images/background-img6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+.text2-container {
+    position: relative; /* To ensure it stays within the parent background */
+    height: 80vh; /* Adjust height as needed for the scrolling container */
+    width: 95vw; /* Adjust width as needed */
+    margin-top: 10vh;
+    margin-left: 2.5vw;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a background to make the text stand out */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    padding: 1rem; /* Optional: Add padding for text inside */
+}
+
+.text2 {
+    /* Styles specific to text content inside the scrollable container */
+    line-height: 1.5; /* Optional: Adjust line spacing for readability */
+}
